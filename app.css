@@ -54,6 +54,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    text-transform: lowercase;
 }
 
 .panel {
@@ -62,4 +63,19 @@ body {
     padding: 15px 25px;
     width: 100%;
     max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pricing-plan {
+    border-bottom: 1px solid #eeee;
+}
+.pricing-plan:last-child {
+    border-bottom: none;
+}
+
+.pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%;
 }
