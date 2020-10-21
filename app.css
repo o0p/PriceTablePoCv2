@@ -136,3 +136,17 @@ body {
     background-color: #f06b0660;
     color: #3b3b3b;
 }
+
+@media (min-width: 900px){
+    .panel{
+        flex-direction: row ;
+    }
+    .pricing-plan{
+        border-bottom:none;
+        border-right: solid #eee: ;
+        padding: 25px 15px;
+    }
+    .pricing-plan:last-child {
+        border-right: none;
+    }
+}
