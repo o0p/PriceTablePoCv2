@@ -43,6 +43,23 @@ table {
 	border-spacing: 0;
 }
 
+html {
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+}
+
 body {
-    background-color: rgb(251, 251, 253);
+    background-color: #fbfbfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.panel {
+    background-color: #f7f7f7;
+    border-radius: 10px 5px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
 }
